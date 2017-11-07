@@ -1,0 +1,28 @@
+.container-fluid li {
+	display: inline;
+}
+
+.container-fluid li a {
+	display: block;
+	color: #b5b59c; //light-brown
+	text-align: center;
+	padding: 10px 30px;
+	margin: 5px;
+	text-decoration: none;
+}
+
+ul li a, ul.nav li a:visited {
+    color: #a51a10; //darkish red
+}
+
+ul li a:hover, ul.nav li a:active {
+    color: #b5b59c; //light-brown
+}
+
+ul li.active a {
+    color: #b5b59c; //light-brown
+}
+
+h1 {
+  color: #a51a10;
+}
